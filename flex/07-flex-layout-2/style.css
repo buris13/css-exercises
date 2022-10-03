@@ -35,6 +35,7 @@ body {
   width: 300px;
   background: royalblue;
   flex: 1 0 auto;
+  padding: 16px;
 }
 
 .card {
@@ -42,17 +43,18 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   width: 300px;
+  padding: 16px;
+  margin: 16px;
 }
 
 .card-container {
   padding: 32px;
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
 }
 
 li {
-  padding: 16px;
+  margin-bottom: 16px;
 }
 
 /* REMOVE F*CKIN STYLE */
